@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.NextPage"
+             Title="NextPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            Text="Go to Next Page"
+            x:Name="btnNextPage"
+            Clicked="btnNextPage_Clicked" />
+        <Button
+            Text="Go Back to Last Page"
+            x:Name="btnLastPage"
+            Clicked="btnLastPage_Clicked" />
+        <Button
+            Text="Go to Main Page"
+            x:Name="btnMainPage"
+            Clicked="btnMainPage_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
